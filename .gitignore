@@ -1,0 +1,7 @@
+.DS_Store
+cypress/screenshots/
+cypress/videos/
+node_modules/
+cypress.env.json
+temp/
+cypress/integration/exemploTesteRegressaoVisualPlugin/__image_snapshots__

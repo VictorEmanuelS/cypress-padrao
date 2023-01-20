@@ -1,0 +1,19 @@
+{
+  "name": "cypress-padrao",
+  "version": "1.0.0",
+  "description": "teste cypress",
+  "main": "(index.js)",
+  "scripts": {
+    "cypress:execution-tags": "cypress run --env tags=@credenciados",
+    "test": "cypress run"
+  },
+  "author": "Victor",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.3.0",
+    "esbuild": "^0.14.54",
+    "multiple-cucumber-html-reporter": "^1.21.4"
+  }
+}
